@@ -1,0 +1,36 @@
+body {
+	font-family: Arial;
+}
+h2 {
+    color: blue;
+}
+
+Ejemplo.html
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Emjemplo JS</title>
+               <meta charset="UTF-8">
+                <link href="./ejemplo.css" rel="stylesheet">
+                <script src="./ejemplo.js"></script>
+     </head>
+    <body>
+         <h2>Ejemplo javascript</h2>
+         <p>acá va nuestro resultado</p>
+        
+    </body>
+</html>
+
+
+Ejemplo.js
+
+//alert("hola mundo")
+ if(confirm("Cómo va la clase?")) {
+    //Lo que sae hace si se cumple la condición
+    alert("Estás bien?");
+ }
+ else{
+	//lo que se hace si NO se cumple la condición
+	alert("Hay que hacer la calse más divertida);
+}
